@@ -5,44 +5,46 @@
 }
 
 #firstpicture {
-    background-image: url('images/Webp.net-resizeimage.jpg');
+    background:url('images/Webp.net-resizeimage.jpg') no-repeat center center;
     height: 350px;
-    text-align:center;
-    color:white;
+    text-align: center;
+    color: white;
 }
 
 #secondpicture {
-    background-image: url('images/Versilia.jpg');
-    height:350px;
-    width:100%;
-    
+    background: url('images/Versilia.jpg') no-repeat  center center;
+
+    height: 350px;
+    width: 100%;
 }
 
-h1{
-    margin-top:20px;
+h1 {
+    margin-top: 20px;
 }
 
-#rowunderpics{
-    height:100px;
-    background-color:dimgray;
-    color:white;
-    text-align:center;
+#rowunderpics {
+    height: 100px;
+    background-color: dimgray;
+    color: white;
+    text-align: center;
 }
 
 
 
 #thirdpicture {
     background-image: url('images/rsz_1italy-mountain-villa.jpg');
-    background-size:cover;
+    background-size: cover;
     height: 200px;
     width: 100%;
 }
+
 #fourthpicture {
     background-image: url('images/rsz_1modern-villa.jpg');
     background-size: cover;
     height: 200px;
     width: 100%;
 }
+
 #fifthpicture {
     background-image: url('images/rsz_tuscany-grape-field-nature-51947 (1).jpg');
     background-size: cover;
@@ -51,24 +53,82 @@ h1{
 }
 
 #topleft {
-    background-image: url('images/3b-348x348.jpg');
+    background:url('images/3b-348x348.jpg') no-repeat center center;
     background-size: cover;
-    height: 200px;
+    height: 300px;
     width: 100%;
 }
+
 #topright {
-    background-image: url('images/3b-348x348.jpg');
-    background-size: cover;
-    height: 200px;
+    background:url('images/42-348x348.jpg') no-repeat center center;
+    height: 300px;
     width: 100%;
-
 }
 
-#topmiddle{
-    text-align:center;
-    width:100%;
+#topmiddle {
+    text-align: center;
+    width: 100%;
 }
 
-h4{
-    color:dimgray;
+
+h4 {
+    color: dimgray;
+}
+
+#bottomleft {
+
+    background: url('images/Villa-Rucellai-Toscani-2812-2-348x348.jpg') no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+#bottomright {
+    background: url('images/Villa-Vanna-231-348x348.jpg') no-repeat center center;
+    height: 300px;
+    width: 100%;
+}
+
+
+
+/*Font-awesome integration*/
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/*Google font integration*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#contact {
+    background-color: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+}
+
+    #contact .well {
+        margin-top: 30px;
+        border-radius: 0;
+    }
+
+    #contact .form-control {
+        border-radius: 0;
+        border: 2px solid #1e1e1e;
+    }
+
+    #contact button {
+        border-radius: 0;
+        border: 2px solid #1e1e1e;
+    }
+
+    #contact .row {
+        margin-bottom: 30px;
+    }
+
+@media (max-width: 768px) {
+    #contact iframe {
+        margin-bottom: 15px;
+    }
+}
+
+
+#contactleft{
+    background:url('images/italymap.png') no-repeat center center;
+    color:black;
+    opacity:0.8;
 }
