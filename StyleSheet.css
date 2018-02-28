@@ -80,13 +80,13 @@ h4 {
     background: url('images/Villa-Rucellai-Toscani-2812-2-348x348.jpg') no-repeat center center;
     background-size: cover;
     height: 300px;
-    width: 100%;
+    width: 300px;
 }
 
 #bottomright {
     background: url('images/Villa-Vanna-231-348x348.jpg') no-repeat center center;
     height: 300px;
-    width: 100%;
+    width: 300px;
 }
 
 
@@ -131,4 +131,12 @@ h4 {
     background:url('images/italymap.png') no-repeat center center;
     color:black;
     opacity:0.8;
+}
+
+#jumbotron{
+    height:1500px;
+    width:1500px;
+    
+    background-color:aqua;
+
 }
