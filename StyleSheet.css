@@ -1,0 +1,74 @@
+﻿@media (max-width: 767px) {
+    .navbar-toggleable-sm {
+        clear: both;
+    }
+}
+
+#firstpicture {
+    background-image: url('images/Webp.net-resizeimage.jpg');
+    height: 350px;
+    text-align:center;
+    color:white;
+}
+
+#secondpicture {
+    background-image: url('images/Versilia.jpg');
+    height:350px;
+    width:100%;
+    
+}
+
+h1{
+    margin-top:20px;
+}
+
+#rowunderpics{
+    height:100px;
+    background-color:dimgray;
+    color:white;
+    text-align:center;
+}
+
+
+
+#thirdpicture {
+    background-image: url('images/rsz_1italy-mountain-villa.jpg');
+    background-size:cover;
+    height: 200px;
+    width: 100%;
+}
+#fourthpicture {
+    background-image: url('images/rsz_1modern-villa.jpg');
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+#fifthpicture {
+    background-image: url('images/rsz_tuscany-grape-field-nature-51947 (1).jpg');
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+#topleft {
+    background-image: url('images/3b-348x348.jpg');
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+#topright {
+    background-image: url('images/3b-348x348.jpg');
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+
+}
+
+#topmiddle{
+    text-align:center;
+    width:100%;
+}
+
+h4{
+    color:dimgray;
+}
