@@ -1,6 +1,4 @@
-﻿.spacerrow1 {
-    height: 50px;
-}
+﻿
 
 .square {
     float: left;
@@ -10,14 +8,34 @@
     background-size: cover;
 }
 
-.checkerrow {
-    justify-content: center;
-}
 
-#pic1 {
-    background:url('images/3b-348x348.jpg')no-repeat center center;
+
+#pic1{
+    background: url('images/3b-348x348.jpg') no-repeat center center;
     
 }
+.content1 {
+    position: absolute;
+    height: 90%; /* = 100% - 2*5% padding */
+    width: 90%; /* = 100% - 2*5% padding */
+    padding: 5%;
+    text-align: center;
+}
+.rs {
+    width: auto;
+    height: auto;
+    max-height: 90%;
+    max-width: 100%;
+}
+/*  For responsive images as background */
+
+.bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; /* you change this to "contain" if you don't want the images to be cropped */
+    color: #fff;
+}
+
 
 #pic2 {
     background: url('images/42-348x348.jpg') no-repeat center center;

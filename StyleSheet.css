@@ -1,8 +1,8 @@
-﻿@media (max-width: 767px) {
+﻿/*@media (max-width: 767px) {
     .navbar-toggleable-sm {
         clear: both;
     }
-}
+}*/
 
 #firstpicture {
     background:url('images/Webp.net-resizeimage.jpg') no-repeat center center;
@@ -27,11 +27,12 @@ h1 {
     background-color: #474e5d;
     color: white;
     text-align: center;
+    
 }
 
 
 
-#thirdpicture {
+/*#thirdpicture {
     background-image: url('images/rsz_1italy-mountain-villa.jpg');
     background-size: cover;
     height: 200px;
@@ -50,12 +51,12 @@ h1 {
     background-size: cover;
     height: 200px;
     width: 100%;
-}
+}*/
 
 
 
 
-#topleft {
+/*#topleft {
     background:url('images/3b-348x348.jpg') no-repeat center center;
     background-size: cover;
     height: 300px;
@@ -72,14 +73,14 @@ h1 {
     text-align: center;
     max-width: 300px;
     color: #474e5d;
-}
+}*/
 
 
 h4 {
     color: dimgray;
 }
 
-#bottomleft {
+/*#bottomleft {
     background: url('images/Villa-Rucellai-Toscani-2812-2-348x348.jpg') no-repeat center center;
     
     height: 300px;
@@ -90,7 +91,7 @@ h4 {
     background: url('images/Villa-Vanna-231-348x348.jpg') no-repeat center center;
     height: 300px;
     max-width: 300px;
-}
+}*/
 
 
 
@@ -123,11 +124,11 @@ h4 {
         margin-bottom: 30px;
     }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     #contact iframe {
         margin-bottom: 15px;
     }
-}
+}*/
 
 
 #contactleft{
