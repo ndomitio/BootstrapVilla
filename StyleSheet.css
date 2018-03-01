@@ -52,22 +52,26 @@ h1 {
     width: 100%;
 }
 
+
+
+
 #topleft {
     background:url('images/3b-348x348.jpg') no-repeat center center;
     background-size: cover;
     height: 300px;
-    width: 100%;
+    max-width:300px;
 }
 
 #topright {
-    background:url('images/42-348x348.jpg') no-repeat center center;
+    background: url('images/42-348x348.jpg') no-repeat center center;
     height: 300px;
-    width: 100%;
+    max-width: 300px;
 }
 
 #topmiddle {
     text-align: center;
-    width: 100%;
+    max-width: 300px;
+    color: #474e5d;
 }
 
 
@@ -76,17 +80,16 @@ h4 {
 }
 
 #bottomleft {
-
     background: url('images/Villa-Rucellai-Toscani-2812-2-348x348.jpg') no-repeat center center;
-    background-size: cover;
+    
     height: 300px;
-    width: 300px;
+    max-width: 300px;
 }
 
 #bottomright {
     background: url('images/Villa-Vanna-231-348x348.jpg') no-repeat center center;
     height: 300px;
-    width: 300px;
+    max-width: 300px;
 }
 
 
@@ -133,4 +136,7 @@ h4 {
     opacity:0.8;
 
 }
+
+
+
 
