@@ -1,6 +1,4 @@
-﻿
-
-.square {
+﻿.square {
     float: left;
     position: relative;
     width: 30%;
@@ -10,10 +8,10 @@
 
 
 
-#pic1{
+#pic1 {
     background: url('images/3b-348x348.jpg') no-repeat center center;
-    
 }
+
 .content1 {
     position: absolute;
     height: 90%; /* = 100% - 2*5% padding */
@@ -21,6 +19,7 @@
     padding: 5%;
     text-align: center;
 }
+
 .rs {
     width: auto;
     height: auto;
